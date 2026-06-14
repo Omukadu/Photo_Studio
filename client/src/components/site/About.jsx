@@ -14,11 +14,18 @@ export function About() {
           className="relative"
         >
           <div className="aspect-[4/5] overflow-hidden bg-muted">
-            <img src={photographer.portrait} alt={photographer.name} className="h-full w-full object-cover" loading="lazy" />
+            <img
+              src={photographer.portrait}
+              alt={photographer.name}
+              className="h-full w-full object-cover"
+              loading="lazy"
+            />
           </div>
           <div className="absolute -bottom-6 -right-6 hidden border border-[var(--gold)] bg-background p-6 md:block">
-            <p className="font-serif text-5xl leading-none">12</p>
-            <p className="mt-1 text-[0.65rem] tracking-[0.3em] uppercase text-muted-foreground">Years of Craft</p>
+            <p className="font-serif text-5xl leading-none">7</p>
+            <p className="mt-1 text-[0.65rem] tracking-[0.3em] uppercase text-muted-foreground">
+              Years of Craft
+            </p>
           </div>
         </motion.div>
 
@@ -36,14 +43,18 @@ export function About() {
 
           <div className="mt-8 space-y-5 text-muted-foreground leading-relaxed">
             <p>
-              I have spent the last twelve years quietly photographing weddings, portraits and editorial campaigns across Europe. My work lives somewhere between documentary and fine art — observed, never staged; refined, never overworked.
+              I have spent the last seven years quietly photographing weddings,
+              portraits and editorial campaigns across Europe. My work lives
+              somewhere between documentary and fine art — observed, never
+              staged; refined, never overworked.
             </p>
             <p>
-              I believe a great photograph is one you keep returning to. That is the only brief I care about.
+              I believe a great photograph is one you keep returning to. That is
+              the only brief I care about.
             </p>
           </div>
 
-          <dl className="mt-10 grid grid-cols-2 gap-6 border-t border-border pt-8">
+          {/* <dl className="mt-10 grid grid-cols-2 gap-6 border-t border-border pt-8">
             <div>
               <dt className="eyebrow">Featured In</dt>
               <dd className="mt-2 font-serif text-lg">Vogue · Kinfolk · British Journal of Photography</dd>
@@ -52,7 +63,7 @@ export function About() {
               <dt className="eyebrow">Philosophy</dt>
               <dd className="mt-2 font-serif text-lg italic">"Light is the only honest narrator."</dd>
             </div>
-          </dl>
+          </dl> */}
         </motion.div>
       </div>
     </section>

@@ -8,7 +8,7 @@ import { WhyChoose } from "@/components/site/WhyChoose";
 import { FeaturedProjects } from "@/components/site/FeaturedProjects";
 import { Stats } from "@/components/site/Stats";
 import { Testimonials } from "@/components/site/Testimonials";
-import { InstagramGrid } from "@/components/site/Instagram";
+// import { InstagramGrid } from "@/components/site/Instagram";
 import { Contact } from "@/components/site/Contact";
 import { Footer } from "@/components/site/Footer";
 
@@ -25,7 +25,7 @@ export default function Home() {
       <WhyChoose />
       <FeaturedProjects />
       <Testimonials />
-      <InstagramGrid />
+      {/* <InstagramGrid /> */}
       <Contact />
       <Footer />
     </main>
