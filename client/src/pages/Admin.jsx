@@ -102,9 +102,9 @@ function LoginForm({ onSuccess }) {
         >
           {loading && <Loader2 className="h-4 w-4 animate-spin" />} Sign in
         </button>
-        <p className="text-xs text-muted-foreground">
+        {/* <p className="text-xs text-muted-foreground">
           Default (from server seed): admin@studio.com / admin123
-        </p>
+        </p> */}
       </form>
     </div>
   );
